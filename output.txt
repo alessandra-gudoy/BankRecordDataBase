@@ -1,0 +1,161 @@
+Script started on Fri 22 Mar 2024 06:56:34 PM HST
+]0;agudoy7@uhx02:~/project1[?1034huhx02:/home/a/agudoy7/project1% ./project
+This is the user interface to manage bank records in the database.
+Manage bank records by choosing one of the following by typing in the name of the menu options.
+Menu:
+add: Add a new record in the database.
+printall: Print all records in the database.
+find: Find record(s) with a sepcified account number.
+delete: Delete exisitng record(s) from the database using the account number as a key.
+quit: Quit the program.
+print
+
+Menu:
+add: Add a new record in the database.
+printall: Print all records in the database.
+find: Find record(s) with a sepcified account number.
+delete: Delete exisitng record(s) from the database using the account number as a key.
+quit: Quit the program.
+add
+Please enter an account number: 12000
+Please enter your name: John Doe
+Please enter your address. End your input with a question mark and press <ENTER>.
+1234 Diorite Street
+West City, HI 12345?
+
+Added record successfully.
+
+Menu:
+add: Add a new record in the database.
+printall: Print all records in the database.
+find: Find record(s) with a sepcified account number.
+delete: Delete exisitng record(s) from the database using the account number as a key.
+quit: Quit the program.
+add
+Please enter an account number: -45
+Account number is invalid. Please input a positive integer: 11000
+Please enter your name: Jane Doe
+Please enter your address. End your input with a question mark and press <ENTER>.
+987 Cobble Street
+Easre City, AZ 98761?
+
+Added record successfully.
+
+Menu:
+add: Add a new record in the database.
+printall: Print all records in the database.
+find: Find record(s) with a sepcified account number.
+delete: Delete exisitng record(s) from the database using the account number as a key.
+quit: Quit the program.
+printall
+Account Number: 11000
+Name: Jane Doe
+Address: 987 Cobble Street
+Easre City, AZ 98761
+
+Account Number: 12000
+Name: John Doe
+Address: 1234 Diorite Street
+West City, HI 12345
+
+
+Menu:
+add: Add a new record in the database.
+printall: Print all records in the database.
+find: Find record(s) with a sepcified account number.
+delete: Delete exisitng record(s) from the database using the account number as a key.
+quit: Quit the program.
+fin
+
+Enter the account number to find: 11000
+Record found
+Account Number: 11000
+Name: Jane Doe
+Address: 987 Cobble Street
+Easre City, AZ 98761
+
+
+Menu:
+add: Add a new record in the database.
+printall: Print all records in the database.
+find: Find record(s) with a sepcified account number.
+delete: Delete exisitng record(s) from the database using the account number as a key.
+quit: Quit the program.
+delet
+Enter the account number to delete: 12000
+Deleting record with account number 12000
+Menu:
+add: Add a new record in the database.
+printall: Print all records in the database.
+find: Find record(s) with a sepcified account number.
+delete: Delete exisitng record(s) from the database using the account number as a key.
+quit: Quit the program.
+p
+Account Number: 11000
+Name: Jane Doe
+Address: 987 Cobble Street
+Easre City, AZ 98761
+
+
+Menu:
+add: Add a new record in the database.
+printall: Print all records in the database.
+find: Find record(s) with a sepcified account number.
+delete: Delete exisitng record(s) from the database using the account number as a key.
+quit: Quit the program.
+qui
+]0;agudoy7@uhx02:~/project1uhx02:/home/a/agudoy7/project1% ./project
+
+Added record successfully.
+This is the user interface to manage bank records in the database.
+Manage bank records by choosing one of the following by typing in the name of the menu options.
+Menu:
+add: Add a new record in the database.
+printall: Print all records in the database.
+find: Find record(s) with a sepcified account number.
+delete: Delete exisitng record(s) from the database using the account number as a key.
+quit: Quit the program.
+print
+Account Number: 11000
+Name: Jane Doe
+Address: 987 Cobble Street
+Easre City, AZ 98761
+
+
+Menu:
+add: Add a new record in the database.
+printall: Print all records in the database.
+find: Find record(s) with a sepcified account number.
+delete: Delete exisitng record(s) from the database using the account number as a key.
+quit: Quit the program.
+fin
+
+Enter the account number to find: 110
+
+Cannot find record with account number 110.
+
+
+Menu:
+add: Add a new record in the database.
+printall: Print all records in the database.
+find: Find record(s) with a sepcified account number.
+delete: Delete exisitng record(s) from the database using the account number as a key.
+quit: Quit the program.
+p
+Account Number: 11000
+Name: Jane Doe
+Address: 987 Cobble Street
+Easre City, AZ 98761
+
+
+Menu:
+add: Add a new record in the database.
+printall: Print all records in the database.
+find: Find record(s) with a sepcified account number.
+delete: Delete exisitng record(s) from the database using the account number as a key.
+quit: Quit the program.
+q
+]0;agudoy7@uhx02:~/project1uhx02:/home/a/agudoy7/project1% exit
+exit
+
+Script done on Fri 22 Mar 2024 07:00:13 PM HST

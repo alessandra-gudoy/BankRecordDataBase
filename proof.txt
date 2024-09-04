@@ -1,0 +1,9 @@
+Script started on Fri 22 Mar 2024 06:55:36 PM HST
+]0;agudoy7@uhx02:~/project1[?1034huhx02:/home/a/agudoy7/project1% make
+gcc -ansi -pedantic-errors -Wall -c user_interface.c
+gcc -ansi -pedantic-errors -Wall -c database.c
+gcc -o project user_interface.o database.o
+]0;agudoy7@uhx02:~/project1uhx02:/home/a/agudoy7/project1% exit
+exit
+
+Script done on Fri 22 Mar 2024 06:55:54 PM HST
